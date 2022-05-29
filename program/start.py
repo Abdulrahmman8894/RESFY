@@ -48,22 +48,22 @@ async def _human_time_duration(seconds):
 
 
 @Client.on_message(
-    command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
+    command(["ss", f"ss@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""👋🏻 **اهلا ياحلو {message.from_user.mention()} !**\n
-🎗 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **انا زوزو يمكنني تشغيل الاغاني ولفيديوهات في المكالمة  الصوتية!**
+        f"""👋🏻 **اهلا بك {message.from_user.mention()} !**\n
+🎗 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **انا بوت استطيع تشغيل الاغاني والموسيقى في المكالمات  الصوتية! ᥀︙**
 
-★ **لتعرف اوامري ياحلو اضغط على » الاوامر الاساسية!**
+᥀︙ **لمعرفة اوامر هذا البوت اضغط على » الاوامر الاساسية!**
 
-★ **لتعرف شلون تشغلني بقروبك اضغط على » طريقة التشغيل!**
+᥀︙ **لمعرفة طريقة تشغيل هذا البوت اضغط على » طريقة التشغيل!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ضيفني لقروبك ➕",
+                        "➕ اضف البوت الى مجموعتك",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
@@ -74,15 +74,15 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "★ قروب الدعم ★", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "‹كروب السورس›", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "★ قناة البوت ★", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "‹قناة البوت›", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "★ مبرمج السورس ★", url="https://t.me/QABNADLIB"
+                        "🐉 لتنصيب بوت 🐉", url="https://t.me/QABNADLIB"
                     )
                 ],
             ]
@@ -102,7 +102,7 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/faqek"),
+                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/VFF34"),
                 InlineKeyboardButton(
                     "مطور السورس", url=f"https://t.me/QABNADLIB"
                 ),
@@ -110,7 +110,7 @@ async def alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"**هلا {message.from_user.mention()}, i'm {BOT_NAME}**\n\n★ البوت يعمل بشكل طبيعي\n★ حساب المساعد: [{ALIVE_NAME}] \n\n**شكرا لاضافتي هنا لتششغيل الموسيقى على المحادثة الصوتية** 💖"
+    alive = f"**هلا {message.from_user.mention()}, i'm {BOT_NAME}**\n\nℹ️ البوت يعمل بشكل طبيعي\nℹ️ حساب المساعد: [{ALIVE_NAME}] \n\n**شكرا لاضافتي هنا لتششغيل الموسيقى على المحادثة الصوتية** 💖"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",

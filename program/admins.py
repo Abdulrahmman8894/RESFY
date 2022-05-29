@@ -15,12 +15,12 @@ from pyrogram.types import (
 
 
 bttn = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🔙 رجوع", callback_data="cbmenu")]]
+    [[InlineKeyboardButton("• رجوع •", callback_data="cbmenu")]]
 )
 
 
 bcl = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🗑 اغلاق", callback_data="cls")]]
+    [[InlineKeyboardButton("• اغلاق •", callback_data="cls")]]
 )
 
 
@@ -34,7 +34,7 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(
-        "✅ بوت **إعادة تحميلها بشكل صحيح !**\n✅ **قائمة المسؤول** لديها **محدث !**"
+        "✓ بوت **إعادة تحميلها بشكل صحيح !**\n✓ **قائمة المسؤول** لديها **محدث !**"
     )
 
 
@@ -46,10 +46,10 @@ async def skip(client, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="• القائمه", callback_data="cbmenu"
+                    text="• القائمة •", callback_data="cbmenu"
                 ),
                 InlineKeyboardButton(
-                    text="• اغلاق", callback_data="cls"
+                    text="• اغلاق •", callback_data="cls"
                 ),
             ]
         ]
@@ -61,7 +61,7 @@ async def skip(client, m: Message):
         if op == 0:
             await m.reply("❌ لا شيء يتدفق حاليا")
         elif op == 1:
-            await m.reply("✅ __قوائم الانتظار__ **فارغ.**\n\n**• البوت يغادر الدردشة الصوتية**")
+            await m.reply("✓ __قوائم الانتظار__ **فارغ.**\n\n**• البوت يغادر الدردشة الصوتية**")
         elif op == 2:
             await m.reply("🗑️ **مسح قوائم الانتظار**\n\n**• البوت يغادر الدردشة الصوتية**")
         else:
@@ -99,11 +99,11 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("✅ انقطع اتصال المستخدم الروبوت بالدردشة المرئية.")
+            await m.reply("✓ انقطع اتصال البوت بالدردشة المرئية.")
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **لا شيء يتدفق حاليا**")
+        await m.reply("✓ **لا شيء يتدفق حاليا**")
 
 
 @Client.on_message(

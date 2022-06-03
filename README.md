@@ -13,19 +13,19 @@
     <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
-## 📊 Stats
+## 📊 احصائيات
 [![CodeFactor](https://www.codefactor.io/repository/github/levina-lab/video-stream/badge)](https://www.codefactor.io/repository/github/levina-lab/video-stream)
 
 ## 🧪 Get `SESSION_NAME` from below:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``Pyrogram``
 
-## 🎭 Preview
+## 🎭 معاينة
 <p align="center">
   <img src="https://telegra.ph/file/b8c1461bcbbad5664aa48.png">
 </p>
 
-## ✨ Features
+## ✨ سمات
 - Music & Video stream support
 - MultiChat support
 - Playlist & Queue support
@@ -40,7 +40,7 @@
 - Userbot Auto Join
 - Direct Updater
 
-## 🛠 Commands:
+## 🛠 الاوامر :
 | Command | Description |
 | ------ | ------ |
 | `/mplay (query)` | play music from youtube |
@@ -63,12 +63,12 @@
 | `/restart` | restart your bot directly without leaving telegram (sudo only) |
 | `/clean` | clean all raw files |
 | `/rmd` | clean all downloaded files |
-## Heroku Deployment 💜
+## التنصيب 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/source56/RESFY)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulrahmman8894/ZEZO_MUSIC1)
 
-## VPS Deployment 📡
+## نشر VPS 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
 
 ```sh
@@ -88,8 +88,9 @@ python3 main.py # run the bot.
 # continue the host with screen or anything else, thanks for reading.
 ```
 
-# Credits 💖
+# الاعتمادات 💖
 
+- [Abdulrahman](https://github.com/Abdulrahmman8894) ``Dev``
 - [Levina](https://github.com/levina-lab) ``Dev``
 - [Zxce3](https://github.com/Zxce3) ``Dev``
 - [DoellBarr](https://github.com/DoellBarr) ``Dev``
@@ -98,5 +99,5 @@ python3 main.py # run the bot.
 - [Laky's](https://github.com/Laky-64) for [``py-tgcalls``](https://github.com/pytgcalls/pytgcalls)
 - [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
 
-### Support & Updates 🎑
-<a href="https://t.me/VeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+### الدعم والتحديثات 🎑
+<a href="https://t.me/BAR_ZEZO"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zezoteams"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>

@@ -8,9 +8,9 @@
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/faqek",
-    "repository": "https://github.com/source56/RESFY",
-    "success_url": "https://t.me/VFF35",
+    "website": "https://t.me/BAR_ZEZO",
+    "repository": "https://github.com/Abdulrahmman8894/ZEZO_MUSIC1",
+    "success_url": "https://t.me/zezoteams",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -47,12 +47,12 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "faqek"
+            "value": "BAR_ZEZO"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "VFF35"
+            "value": "zezoteams"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
@@ -62,7 +62,7 @@
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "QABNADLIB"
+            "value": "ZEYADZAGLOL"
         }
     },
     "addons": [],
